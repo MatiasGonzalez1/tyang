@@ -18,5 +18,18 @@ let coleccionNumeros: Array<number> = [1,2,3,4]
 let coleccionNumeros1: Array<string> = ['1', '2']
 
 //tuplas muchos tipos dentro de un array
-
+//debe ser exactamente el tipo de datos que se está enviando
 let tupla: [number, string, boolean] = [1,'2', true]
+
+//funciones
+
+function mostrar():void{
+  console.log('Funcion 1')
+}
+
+const mostrar2 = ():void =>{
+  console.log('Funcion2')
+}
+
+mostrar()
+mostrar2()
