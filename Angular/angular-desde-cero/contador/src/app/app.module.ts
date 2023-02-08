@@ -2,19 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ContadorComponent } from './contador/contador.component';
-import { ButtonAddComponent } from './contador/button-add/button-add.component';
-import { ButtonDelComponent } from './contador/button-del/button-del.component';
+import { CounterModule } from './contador/counter.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContadorComponent,
-    ButtonAddComponent,
-    ButtonDelComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, CounterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
