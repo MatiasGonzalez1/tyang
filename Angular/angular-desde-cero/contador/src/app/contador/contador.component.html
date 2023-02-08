@@ -1,0 +1,4 @@
+<h1>Contador: {{count}}</h1>
+<hr>
+<app-button-add [count]="count" (onAdd)="handleCount($event)"></app-button-add>
+<app-button-del [count]="count" (onDel)="handleCount($event)"></app-button-del>
