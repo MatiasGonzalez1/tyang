@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  background: azure;
+  color: black;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  width: 30px;
+}
+
+button:hover{
+  transform: scale(1.1);
+  background: rgb(195, 206, 206);
+}

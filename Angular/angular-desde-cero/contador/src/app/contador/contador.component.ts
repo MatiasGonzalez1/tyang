@@ -6,7 +6,7 @@ import { Component} from '@angular/core';
   styleUrls: ['./contador.component.css']
 })
 export class ContadorComponent {
-  title = 'contador';
+  title = 'Aplicación Contador';
   count:number = 0;
 
 handleCount(value:number){
